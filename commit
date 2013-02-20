@@ -1,0 +1,7 @@
+#!/bin/sh
+
+git add -A
+echo "Please enter a commit commentary: "
+read scpt_comment
+git commit -m "$scpt_comment"
+git push origin master
